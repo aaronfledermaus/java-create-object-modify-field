@@ -14,6 +14,6 @@ public class Home {
     public static Cat newCat(String name) {
         Cat ret = new Cat();
         ret.name = name;
-        Return ret;
+        return ret;
     }
 }
