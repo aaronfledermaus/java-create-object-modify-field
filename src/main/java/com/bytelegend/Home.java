@@ -15,6 +15,6 @@ public class Home {
         Cat cat = new Cat():
         cat.name = name;
 
-        return cat;
+        return cat.toString();
     }
 }
