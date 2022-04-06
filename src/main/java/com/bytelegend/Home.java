@@ -11,9 +11,5 @@ public class Home {
     // Updates the `name` instance field (aka. member variable) of that object to `name` argument of
     // the method.
     // Returns that object.
-    public static Cat newCat(String name) {
-        Cat localCat = new Cat();
-        localCat.name = name;
-        return localCat;
-    }
+    public static Cat newCat(String name) {}
 }
