@@ -13,8 +13,10 @@ public class Home {
     // Returns that object.
     public static Cat newCat(String name) {
 
-        Cat catNew = new Cat();
-        Cat.name= name;
-        return catNew;
+       Cat newCat = new Cat();
+        newCat.name = name;
+
+        return newCat;
+
     }
 }
