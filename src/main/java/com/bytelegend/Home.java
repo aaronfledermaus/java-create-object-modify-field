@@ -3,6 +3,7 @@ package com.bytelegend;
 import com.bytelegend.pet.Cat;
 
 public class Home {
+    public class String my_cat;
     public static void main(String[] args) {
         System.out.println(newCat("Tom"));
     }
@@ -12,7 +13,6 @@ public class Home {
     // the method.
     // Returns that object.
     public static Cat newCat(String name) {
-        public class String my_cat;
         my_cat = new Cat(name);
 
         return my_cat;
