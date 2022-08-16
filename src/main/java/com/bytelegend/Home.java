@@ -15,6 +15,6 @@ public class Home {
         Cat cat = new Cat();
         //System.out.println(cat.toString());
         cat.name;
-        return Cat;
+        return cat;
     }
 }
