@@ -12,8 +12,8 @@ public class Home {
     // the method.
     // Returns that object.
     public static Cat newCat(String name) {
-        tmp = new Cat;
-        tmp.name=name;
-        return tmp;
+        Cat cat=new Cat();
+        cat.name=name;
+        return cat;
     }
 }
