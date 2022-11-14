@@ -3,6 +3,9 @@ package com.bytelegend;
 import com.bytelegend.pet.Cat;
 
 public class Home {
+    public static Cat cat;
+
+
     public static void main(String[] args) {
         System.out.println(newCat("Tom"));
     }
@@ -11,5 +14,9 @@ public class Home {
     // Updates the `name` instance field (aka. member variable) of that object to `name` argument of
     // the method.
     // Returns that object.
-    public static Cat newCat(String name) {}
+    public static Cat newCat(String name) {
+        Cat cat = new Cat();
+        cat.name = name;
+        return cat;
+    }
 }
