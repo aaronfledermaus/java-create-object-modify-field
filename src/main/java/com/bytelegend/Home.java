@@ -16,10 +16,5 @@ public class Home {
         cat.name = name;
         return cat;
     }
-    public Class Cat{
-        private String name;
-        private void setName(String name) {
-            this.name = name;
-        }
-    }
+    
 }
