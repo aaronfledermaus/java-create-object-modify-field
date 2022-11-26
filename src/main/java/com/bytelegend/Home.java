@@ -5,7 +5,6 @@ import com.bytelegend.pet.Cat;
 public class Home {
     public static void main(String[] args) {
         System.out.println(newCat("Tom"));
-        System.out.println(newCat("Black"));
     }
 
     // Creates a new `Cat` object.
@@ -13,7 +12,10 @@ public class Home {
     // the method.
     // Returns that object.
     public static Cat newCat(String name) {
-            return Cat("Tom")
-             return Cat("Black");
+                    Cat cat=new Cat();
+        cat.name=name;
+        return cat;
+    
+           
     }
 }
