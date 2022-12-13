@@ -11,10 +11,5 @@ public class Home {
     // Updates the `name` instance field (aka. member variable) of that object to `name` argument of
     // the method.
     // Returns that object.
-    public static Cat newCat(String name) {
-        Cat cat1 = new Cat();
-        cat1.name = name;
-//        cat1.toString();
-        return cat1;            //返回cat1，得到newCat()的值
-    }
+    public static Cat newCat(String name) {}
 }
